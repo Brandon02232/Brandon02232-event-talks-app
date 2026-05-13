@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#category-search {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.talk-block, .break-block {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.talk-time {
+    font-weight: bold;
+    color: #555;
+    flex: 0 0 120px; /* Fixed width for time */
+    padding-right: 15px;
+    border-right: 1px solid #eee;
+    text-align: right;
+}
+
+.talk-content {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.talk-title {
+    font-size: 1.2em;
+    color: #0056b3;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.talk-speakers {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.talk-categories {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.talk-description {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    display: none; /* Hidden by default */
+}
+
+.talk-block.expanded .talk-description {
+    display: block;
+}
+
+.break-block {
+    background-color: #e9e9e9;
+    font-style: italic;
+    color: #555;
+}
+
+.break-content {
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 20px;
+}

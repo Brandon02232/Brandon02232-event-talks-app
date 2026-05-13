@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Talks Event</title>
+    <style>
+        /* INJECT_CSS_HERE */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Technical Talks Event</h1>
+        <p>A full day of insights and innovation.</p>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <input type="text" id="category-search" placeholder="Search by category...">
+        </section>
+
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <!-- Talks will be injected here by JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Technical Talks Event</p>
+    </footer>
+
+    <script>
+        /* INJECT_TALKS_DATA_HERE */
+        /* INJECT_JS_HERE */
+    </script>
+</body>
+</html>
